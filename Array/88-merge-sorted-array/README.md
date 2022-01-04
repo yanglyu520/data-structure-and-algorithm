@@ -1,9 +1,7 @@
 88. Merge Sorted Array
 Easy
 
-2649
-
-265
+https://leetcode.com/problems/merge-sorted-array/
 
 Add to List
 
