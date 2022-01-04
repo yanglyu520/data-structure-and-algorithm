@@ -8,16 +8,4 @@ More formally, if there are k elements after removing the duplicates, then the f
 Return k after placing the final result in the first k slots of nums.
 Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.
 
-## Answer:
-```go
-func removeDuplicates(nums []int) int {
-    k := 0
-    for i,_ :=range nums{
-        if nums[i] != nums[k]{
-            nums[k+1]=nums[i]
-            k++
-        }
-    }
-    return k+1
-}
-```
+
