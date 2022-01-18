@@ -1,4 +1,5 @@
 // implement the stack using array as a base data structure
+//alternatively, you can also implement the linked list as a base data structure for the stack
 package main
 
 import "fmt"
