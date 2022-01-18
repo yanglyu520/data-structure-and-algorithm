@@ -1,5 +1,4 @@
-// You can edit this code!
-// Click here and start typing.
+// implement the stack using array as a base data structure
 package main
 
 import "fmt"
@@ -35,9 +34,11 @@ func (stack *Stack) push(item int) {
 // 3. give it the pop  unction
 func (stack *Stack) pop() {
 	l := len(stack.data)
+	//notice the slice to pop up the last item in the array
 	fmt.Println("pop up item: ", stack.data[l-1])
 	if l == 0 {
 		fmt.Println("stack is empty, cannot pop anymore")
+		return
 	} else {
 		stack.data = stack.data[:l-1]
 	}
