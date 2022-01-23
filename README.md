@@ -17,13 +17,15 @@ Each question is coded using golang
 ## Hashtable
 - 1 two sums
 - three sums
-- two sums in sorted array
+- 3 sums advanced
+- 167-twosums-2-sorted-array
 - 242 valid anagram
 - 697 degree of an array
-- 811 subdomain
+- 811 subdomain visit count
 ## prefix sum
 
 ## two pointers
+- 167-twosums-2-sorted-array
 
 ## stack
 
